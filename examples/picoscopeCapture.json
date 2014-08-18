@@ -1,0 +1,57 @@
+{   
+    "channelAcquisition":   {
+                                "channelA": "True",
+                                "channelB": "True",
+                                "channelC": "True",
+                                "channelD": "True"
+                            },
+    "acquisitionSettings": {
+                                "adcResolution": "15",
+                                "samplingInterval": "32e-9",
+                                "duration": "1e-4"
+                            },
+    "cycleSettings":        {
+                                "numCycles": "inf",
+                                "cycleDuration": "10"
+                            },
+    "triggerSettings":      {
+                                "trgSrc": "A",
+                                "threshold_V": "0",
+                                "direction": "Rising",
+                                "delay": "0",
+                                "timeout_ms": "100",
+                                "enabled": "True"
+                            },
+    "channelA":             {
+                                "coupling": "DC",
+                                "VRange": "2.0",
+                                "VOffset": "0.0",
+                                "enabled": "True",
+                                "BWLimited": "False",
+                                "probeAttenuation": "1.0"
+                            },
+    "channelB":             {
+                                "coupling": "DC",
+                                "VRange": "2.0",
+                                "VOffset": "0.0",
+                                "enabled": "True",
+                                "BWLimited": "False",
+                                "probeAttenuation": "1.0"
+                            },
+    "channelC":             {
+                                "coupling": "DC",
+                                "VRange": "2.0",
+                                "VOffset": "0.0",
+                                "enabled": "True",
+                                "BWLimited": "False",
+                                "probeAttenuation": "1.0"
+                            },
+    "channelD":             {
+                                "coupling": "DC",
+                                "VRange": "2.0",
+                                "VOffset": "0.0",
+                                "enabled": "True",
+                                "BWLimited": "False",
+                                "probeAttenuation": "1.0"
+                            }
+}
